@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+build/
+dist/
+wheels/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and credentials (keep only the .env.example template)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+credentials*.json
+service-account*.json
+secrets/
+*.secret
+*.secrets
+
+# Hidden directories (virtualenv, editor and tool folders)
+.*/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
